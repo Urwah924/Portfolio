@@ -1,0 +1,263 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Header and Navigation */
+#navbar {
+    background-color:black;
+    color:white;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    font-size: x-large;
+    
+}
+
+#navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+
+#navbar ul li {
+    margin-left: 20px;
+    font-size: x-large;
+    
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+#navbar ul li a:hover {
+    color: #3498db;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/hero.jpg') center/cover no-repeat;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero span {
+    color: #3498db;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    padding: 10px 30px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #2980b9;
+}
+
+/* Section Styling */
+.section {
+    padding: 60px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* Project Cards */
+.container h2{
+    font-size: 3.5rem;
+    color: red;
+}
+.project-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+.project-card {
+    background:black;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+.project-card h3{
+    color:deeppink;
+}
+.project-card p{
+    color:black;
+}
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.project-link {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+/* Skills Section */
+.skills-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    
+}
+
+.skill-item {
+    
+    text-align: center;
+    font-size: 2.5rem;
+    color:#fff;
+}
+
+.skill-item i {
+    font-size: 3rem;
+    color:#3498db;
+    margin-bottom: 20px;
+}
+
+.skill-item p {
+    font-size: 3.5rem;
+}
+
+/* Experience Section */
+.experience-item h2{
+    color:aqua;
+}
+.experience-item {
+    margin-bottom: 20px;
+}
+
+.experience-item p{
+    font-size: 1.5rem;
+    color:yellow;
+}
+
+.experience-item h3 {
+    font-size: 1.8rem;
+    color: greenyellow;
+}
+
+.experience-item ul {
+    list-style-type: square;
+    margin-left: 20px;
+    color:white;
+    font-size: 1rem;
+}
+
+/* Contact Form */
+form {
+    display: grid;
+    gap: 15px;
+    color: #fff;
+    
+}
+.container p{
+    color:whitesmoke;
+    font-size: 1.5rem;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #2980b9;
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .social-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+footer .social-links li {
+    margin: 0 10px;
+}
+
+footer .social-links a {
+    color: white;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+footer .social-links a:hover {
+    color: #3498db;
+}
+
